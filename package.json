@@ -6,7 +6,8 @@
   "scripts": {
     "up": "docker-compose up -d",
     "down": "docker-compose down",
-    "down-with-vol": "docker-compose down -v"
+    "down-with-vol": "docker-compose down -v",
+    "adonis-cli": "docker exec -it project_template_core-api_1 /bin/sh"
   },
   "keywords": [
     "boot"

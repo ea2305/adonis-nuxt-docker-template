@@ -24,6 +24,17 @@ services:
       - core-api-node-modules:/usr/src/app/node_modules
     # links: 
     # environment:
+  
+  pg:
+    image: postgres:9.6.15
+    volumes:
+      - ./postgres-data:/docker-entrypoint-initdb.d
+    ports: 
+      - 5433:5432
+    environment:
+      - POSTGRES_PASSWORD=pass
+      - PGPASSWORD=pass
+    command: postgres -c max_connections=200
       
 volumes: 
   core-api-node-modules:
