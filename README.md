@@ -16,6 +16,25 @@ just run the following command to build everything and launch it.
 npm run up
 ```
 
+### Adonis CLI
+
+To run adonis ace commands you willn two way to do it:
+
+- Go to the core-api project folder and run it
+- Access to docker bash, to do that just run 
+
+```sh
+npm run adonis-cli
+```
+
+And write your adonis command there.
+
+> don't forget to close the docker bash console
+
+```sh
+exit;
+```
+
 *The docker configuration exposes the following ports*
 
 |Application|Port|

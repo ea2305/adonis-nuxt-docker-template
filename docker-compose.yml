@@ -22,8 +22,13 @@ services:
     volumes: 
       - ./core-api:/usr/src/app
       - core-api-node-modules:/usr/src/app/node_modules
-    # links: 
-    # environment:
+    links: 
+      - pg
+    environment:
+      - DB_HOST=pg
+      - DB_USER=core_database
+      - DB_PASSWORD=pass
+      - DB_NAME=core_database
   
   pg:
     image: postgres:9.6.15
