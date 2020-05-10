@@ -1,0 +1,14 @@
+{
+  "name": "project_template",
+  "version": "1.0.0",
+  "description": "bootsrap",
+  "main": "index.js",
+  "scripts": {
+    "develop": "docker-compose up"
+  },
+  "keywords": [
+    "boot"
+  ],
+  "author": "Elihu Cruz",
+  "license": "ISC"
+}

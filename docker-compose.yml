@@ -1,0 +1,35 @@
+version: "3.0"
+
+services: 
+  frontstore:
+    build: 
+      context: ./frontstore/docker/dev
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    volumes: 
+      - ./frontstore:/usr/src/app
+      - frontstore-node-modules:/usr/src/app/node_modules
+    # links:
+    # environment:
+
+  core-api:
+    build:
+      context: ./core-api/docker/dev
+      dockerfile: Dockerfile
+    ports:
+      - 3333:3333
+    volumes: 
+      - ./core-api:/usr/src/app
+      - core-api-node-modules:/usr/src/app/node_modules
+    # links: 
+    # environment:
+      
+volumes: 
+  core-api-node-modules:
+  frontstore-node-modules:
+  
+networks:
+  default:
+    ipam:
+      driver: default
