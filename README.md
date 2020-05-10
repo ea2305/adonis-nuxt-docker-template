@@ -1,7 +1,7 @@
 # Adonis 5 + Nuxt Development setup with docker-compose
 
-The goal for this temaplate is provide an easy and cross platform enviroment for developers who build web applications with Adonis.js v5 and Nuxt.js
-We provide a simple way to start to code with docker-compose setup. Both projects are independent so you can figurate out how to deploy each of them properly.
+The goal for this template is provide an easy and cross-platform enviroment for developers who build web applications with Adonis.js v5 and Nuxt.js.
+We provide a simple way to start to code with docker-compose setup. Both projects are independent, so you can setup the projects to deploy each of them properly.
 
 ### Requirements
 
