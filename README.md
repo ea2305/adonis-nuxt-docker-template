@@ -46,4 +46,7 @@ npm run up
 Adonis and Nuxt provides his own configurations in the tsconfig file to generate sources-maps with that we can launch vcode debugger or chrome node debugger.
 
 ### LICENSE
-- MIT
+
+- [Template](https://github.com/ea2305/adonis-nuxt-docker-template/blob/master/LICENSE) MIT
+- [Adonis.js](https://github.com/adonisjs/core/blob/develop/LICENSE.md) MIT
+- [Nuxt.js](https://github.com/nuxt/nuxt.js/blob/dev/LICENSE) MIT
