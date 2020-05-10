@@ -2,7 +2,6 @@
   "name": "frontstore",
   "version": "1.0.0",
   "description": "client/admin control application",
-  "author": "Elihu Cruz",
   "private": true,
   "scripts": {
     "dev": "node --inspect node_modules/.bin/nuxt-ts",
