@@ -36,4 +36,4 @@ RUN npm run build
 RUN npm install --cache /tmp/empty-cache
 
 EXPOSE 3333
-CMD [ "node", "--debug", "./build/server.js" ]
+CMD [ "npm", "start" ]

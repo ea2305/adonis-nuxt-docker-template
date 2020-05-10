@@ -4,11 +4,13 @@
   "description": "bootsrap",
   "main": "index.js",
   "scripts": {
-    "develop": "docker-compose up"
+    "up": "docker-compose up -d",
+    "down": "docker-compose down",
+    "down-with-vol": "docker-compose down -v"
   },
   "keywords": [
     "boot"
   ],
   "author": "Elihu Cruz",
-  "license": "ISC"
+  "license": "MIT"
 }

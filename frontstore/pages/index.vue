@@ -38,9 +38,17 @@ import Card from '~/components/Card'
 
 export default {
   name: 'HomePage',
-
+  data () {
+    return {
+      title: "example"
+    }
+  },
   components: {
     Card
+  },
+  mounted () {
+    const { title } = this;
+    console.log('example debugger', title);
   }
 }
 </script>
