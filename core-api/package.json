@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build": "node ace build",
-    "start": "node ace serve --watch --node-args=--inspect",
+    "start": "node ace serve -w --node-args=--inspect",
+    "docker-start": "node ace serve -w --node-args=--inspect=0.0.0.0:9229",
     "lint": "eslint . --ext=.ts"
   },
   "devDependencies": {
