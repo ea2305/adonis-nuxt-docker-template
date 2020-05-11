@@ -1,0 +1,8 @@
+# install core api dependencies
+npm --prefix ./core-api install
+
+# install frontstore dependencies
+npm --prefix ./frontstore install
+
+# generate first build for adonis
+cd ./core-api && npm run build

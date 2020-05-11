@@ -10,7 +10,19 @@ We provide a simple way to start to code with docker-compose setup. Both project
 
 ### How to run it
 
-just run the following command to build everything and launch it.
+just run the following commands:
+
+The first time you use this template run:
+
+> requires execution privilages
+
+```sh
+bin/start
+```
+
+to install all the modules and generate adonis build
+
+Then, To launch applications, you can use:
 
 ```sh
 npm run up
